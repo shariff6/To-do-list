@@ -1,0 +1,12 @@
+#show-description {
+    display: none;
+  }
+
+  .describe {
+    cursor: pointer;
+  }
+
+  .describe:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
