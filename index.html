@@ -12,20 +12,28 @@
   <body>
     <h1>TASKS</h1>
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 priorities">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 priorities">
         <h2>Priorities</h2>
-        <form id="priorities">
+        <form id="tasks">
           <div class="form-group">
-            <label for="Task"></label>
+            <label for="Task">Task</label>
             <input type="text" class="form-control" id="importantTask">
           </div>
           <div class="form-group">
             <label for="task description"></label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
-
+            <textarea class="form-control" rows="5" id="comment">Task Description</textarea>
           </div>
+          <button type="submit" class="btn">Add Task</button>
 
         </form>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 priorities">
+        <h2>To-do-list</h2>
+        <ul id="tasks">
+
+        </ul>
+
+
       </div>
 
     </div>
